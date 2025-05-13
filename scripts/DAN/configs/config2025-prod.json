@@ -1,0 +1,127 @@
+{
+    "dataset": {
+        "datasets": {
+            "cadastre120325": "/home/STual/DAN-cadastre/dataset2/page_dataset"
+        },
+        "train": {
+            "name": "cadastre120325-train",
+            "datasets": [
+                ["cadastre120325", "train"]
+            ]
+        },
+        "val": {
+            "cadastre120325-val": [
+                ["cadastre120325", "val"]
+            ]
+        },
+        "test": {
+            "cadastre120325-test": [
+                ["cadastre120325", "test"]
+            ]
+        },
+        "max_char_prediction": 1800,
+        "tokens": "/home/STual/DAN-cadastre/dataset2/tokens.yml"
+    },
+    "model": {
+        "transfered_charset": true,
+        "additional_tokens": 1,
+        "encoder": {
+            "dropout": 0.5,
+            "nb_layers": 5
+        },
+        "h_max": 500,
+        "w_max": 1000,
+        "decoder": {
+            "l_max": 15000,
+            "dec_num_layers": 8,
+            "dec_num_heads": 4,
+            "dec_res_dropout": 0.1,
+            "dec_pred_dropout": 0.1,
+            "dec_att_dropout": 0.1,
+            "dec_dim_feedforward": 256,
+            "attention_win": 100,
+            "enc_dim": 256
+        }
+    },
+    "training": {
+        "data": {
+            "batch_size": 2,
+            "load_in_memory": true,
+            "worker_per_gpu": 4,
+            "preprocessings": [
+                {
+                    "type": "max_resize",
+                    "max_width": 2000,
+                    "max_height": 3000
+                }
+            ],
+            "augmentation": true,
+            "limit_train_steps": 500
+        },
+        "device": {
+            "use_ddp": true,
+            "ddp_port": "20027",
+            "use_amp": true,
+            "nb_gpu": 2,
+            "force": null
+        },
+        "metrics": {
+            "train": [
+                "loss_ce",
+                "cer",
+                "cer_no_token",
+                "wer",
+                "wer_no_punct",
+                "wer_no_token"
+            ],
+            "eval": [
+                "cer",
+                "cer_no_token",
+                "wer",
+                "wer_no_punct",
+                "wer_no_token"
+            ]
+        },
+        "validation": {
+            "eval_on_valid": true,
+            "eval_on_valid_interval": 5,
+            "eval_on_valid_start": 0,
+            "set_name_focus_metric": "cadastre120325-val",
+            "font": "/home/STual/DAN-cadastre/fonts/LinuxLibertine.ttf",
+            "maximum_font_size": 32,
+            "nb_logged_images": 5,
+            "limit_val_steps":500
+        },
+        "output_folder": "/home/STual/DAN-cadastre/outputs/training120325_config2025_prod_2000epochs",
+        "max_nb_epochs": 2000,
+        "load_epoch": "last",
+        "optimizers": {
+            "all": {
+                "args": {
+                    "lr": 0.0001,
+                    "amsgrad": true
+                }
+            }
+        },
+        "lr_schedulers": null,
+        "label_noise_scheduler": {
+            "min_error_rate": 0.2,
+            "max_error_rate": 0.2,
+            "total_num_steps": 5e4
+        },
+        "transfer_learning": {
+            "encoder": [
+                "encoder",
+                "/home/STual/DAN-cadastre/models/best_0.pt",
+                true,
+                true
+            ],
+            "decoder": [
+                "decoder",
+                "/home/STual/DAN-cadastre/models/best_0.pt",
+                true,
+                false
+            ]
+        }
+    }
+}

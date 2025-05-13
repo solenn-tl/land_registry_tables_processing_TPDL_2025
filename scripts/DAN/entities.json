@@ -1,0 +1,16 @@
+{
+    "Ⓐ":{"name":"ancien_numero_parcelle",
+        "uuid":"d01f7af8-4523-4988-b641-0bd533889541"},
+    "Ⓑ":{"name":"ancienne_nature",
+        "uuid":"4182c1fd-d81e-4bb6-8ac9-0ba440b893f0"},
+    "Ⓒ":{"name":"identite",
+        "uuid":"69bd29e1-a130-44aa-94e2-2604d41fda49"},
+    "Ⓓ":{"name":"lieu-dit",
+        "uuid":"d161f687-7169-4ba4-a3ea-0068a37a0e63"},
+    "Ⓔ":{"name":"nature",
+        "uuid":"0d4a7ea5-39c2-4bbb-be4b-b303ea47d052"},
+    "Ⓕ":{"name":"numero_parcelle",
+        "uuid":"55914123-2bf6-471c-b41c-3480ef542a01"},
+    "Ⓖ":{"name":"numero_proprietaire",
+        "uuid":"26dc94c3-1f6d-42f7-af29-bdc240dfe96d"}
+}

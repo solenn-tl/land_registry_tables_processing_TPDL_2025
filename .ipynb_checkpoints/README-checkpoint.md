@@ -7,8 +7,8 @@ Historical tables, such as administrative registers, represent vast and valuable
 
 ## Requirements
 * Python >= 3.10
-* Each *scripts/XX* subfolder might have is special requirements (and virtual environnement)
-* Depending on the task :
+* Each *scripts/XX* subfolder requires a dedicated virtual environnement
+* Computing resources :
     * 2 GPUs with at least 45Go RAM required to train DAN
     * 1 GPU for YOLOv11 and Camembert-NER model fine-tuning
 
@@ -16,7 +16,7 @@ Historical tables, such as administrative registers, represent vast and valuable
 ```
 ├── gold-standard
 ├── scripts
-|   ├── CLASSIF            <- Train YOLOv11 classifier for page classifications
+|   ├── CLASSIF            <- Train YOLOv11 classifier for page classification
 │   ├── DAN                <- Train DAN for information extraction from historical tables
 │   ├── NER                <- Train a named entity recognition model to structure taxpayers mentions
 │   ├── EL                 <- Entity linking and entity creation approaches
@@ -30,7 +30,7 @@ Historical tables, such as administrative registers, represent vast and valuable
 
 ## Datasets
 These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives.
-* **Page classification** : (https://zenodo.org/10.5281/zenodo.15386606)[Download on Zenodo (https://doi.org/10.5281/zenodo.15386606)]
+* **Page classification** : [https://zenodo.org/10.5281/zenodo.15386606](Download on Zenodo, https://doi.org/10.5281/zenodo.15386606)
 * **Information extraction** : TO ADD
 * **Gold-standard KG** : TO ADD
 
@@ -39,7 +39,7 @@ Here are the path to the fine-tuned models for page classification, information 
 * **YOLOv11-19lr-ir-94** : TO ADD
 * **DAN-19lr-ir-94** : TO ADD
 
-*NB : 19lr (19th century land registry), ir (initial registers), 94 (Val-de-Marne deperatement archives)*
+*NB : 19lr (19th century land registry), ir (initial registers), 94 (Val-de-Marne departement archives)*
 
 ## Acknowledgement
 
