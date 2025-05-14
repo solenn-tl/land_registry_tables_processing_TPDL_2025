@@ -25,7 +25,7 @@ Historical tables, such as administrative registers, represent vast and valuable
 │
 ├── LICENCE.md
 ├── README.md
-└── paper.pdf              <- Submitted paper with appendix (includes extended evaluation)
+└── appendix.pdf              <- Submitted paper with appendix (includes extended evaluation)
 ```
 
 ## Datasets
