@@ -20,6 +20,7 @@ Historical tables, such as administrative registers, represent vast and valuable
 │   ├── DAN                <- Train DAN for information extraction from historical tables
 │   ├── NER                <- Train a named entity recognition model to structure taxpayers mentions
 │   ├── EL                 <- Entity linking and entity creation approaches
+│   ├── EVAL               <- Final graph evaluation
 │   ├── utils              <- Useful tools and scripts
 │
 ├── LICENCE.md
