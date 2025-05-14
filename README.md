@@ -1,16 +1,16 @@
 # An end-to-end pipeline for knowledge graph population from 19th-century land registry digitised tables
 
-**Under review at TPDL 2025**
-
 ## Abstract
 Historical tables, such as administrative registers, represent vast and valuable sources of information for researchers. However, despite large-scale digitization efforts, extracting and structuring their content remains challenging. The French 19th-century Land Registry is a notable example: rich in detailed land use information, yet highly heterogeneous, and still largely underexploited. Although recent deep learning methods have improved information extraction (IE) from digitised documents, they often lack semantic structuring. Conversely, Semantic Table Interpretation (STI) techniques, mostly applied to natively digital tables, offer structuring and linking capabilities but are rarely used on historical sources. In this work, we propose a pipeline that combines deep learning-based IE with STI, guided by a domain ontology. The approach produces a knowledge graph that enables querying and exploration of historical records. We evaluate the resulting knowledge graph using several metrics, demonstrating the potential of our method for semantic enrichment of historical data.
 
 ## Requirements
 * Python >= 3.10
-* Each *scripts/XX* subfolder requires a dedicated virtual environnement
-* Computing resources :
+    * Each *scripts/XX* subfolder requires a dedicated virtual environnement
+* Computing resources
     * 2 GPUs with at least 45Go RAM required to train DAN
     * 1 GPU for YOLOv11 and Camembert-NER model fine-tuning
+* A RDF triplestore :
+    * We use Graph DB for these experiments 
 
 ## Repository structure
 ```
@@ -24,14 +24,13 @@ Historical tables, such as administrative registers, represent vast and valuable
 │
 ├── LICENCE.md
 ├── README.md
-├── paper.pdf              <- Submitted paper
-└── appendix.pdf           <- Paper appendixes, including extended evaluation
+└── paper.pdf              <- Submitted paper with appendix (includes extended evaluation)
 ```
 
 ## Datasets
 These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives.
-* **Page classification** : [https://zenodo.org/10.5281/zenodo.15386606](Download on Zenodo, https://doi.org/10.5281/zenodo.15386606)
-* **Information extraction** : TO ADD
+* **Page classification** : [Download on Zenodo, https://doi.org/10.5281/zenodo.15386606](https://zenodo.org/10.5281/zenodo.15386606)
+* **Information extraction** : [Download on Zenodo, https://doi.org/10.5281/zenodo.15411507](https://zenodo.org/10.5281/zenodo.15411507)
 * **Gold-standard KG** : TO ADD
 
 ## Models
