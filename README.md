@@ -25,21 +25,28 @@ Historical tables, such as administrative registers, represent vast and valuable
 │
 ├── LICENCE.md
 ├── README.md
-└── appendix.pdf              <- Submitted paper with appendix (includes extended evaluation)
+└── appendix.pdf           <- Submitted paper with appendix (includes extended evaluation)
 ```
 
 ## Datasets
 These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives.
 * **Page classification** : [Download on Zenodo, https://doi.org/10.5281/zenodo.15386606](https://zenodo.org/10.5281/zenodo.15386606)
 * **Information extraction** : [Download on Zenodo, https://doi.org/10.5281/zenodo.15411507](https://zenodo.org/10.5281/zenodo.15411507)
+* **Named Entity Recognition (Taxpayers)** : [Download on Zenodo, https://doi.org/10.5281/zenodo.15423885](https://zenodo.org/10.5281/zenodo.15423885) (! this is a test dataset produced using taxpayers cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation ! **new version in developpement**)
 * **Gold-standard KG** : TO ADD
+
+PS : YOLO-cls dataset and model for empty tables pages detection is under developpement
 
 ## Models
 Here are the path to the fine-tuned models for page classification, information extraction and named-entity recognition.
 * **YOLOv11-19lr-ir-94** : TO ADD
 * **DAN-19lr-ir-94** : TO ADD
+* **NER-19lr-ir-94-test** : TO ADD
 
 *NB : 19lr (19th century land registry), ir (initial registers), 94 (Val-de-Marne departement archives)*
+
+## See also
+* [PeGaZus ontology and algorithm](https://github.com/umrlastig/pegazus-ontology)
 
 ## Acknowledgement
 

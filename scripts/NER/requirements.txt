@@ -1,0 +1,16 @@
+config
+datasets
+evaluate
+spacy
+torch
+transformers
+transformers[torch]
+sentence-transformers
+sentencepiece
+rdflib
+plotly
+python-Levenshtein
+linktransformer
+ollama
+pydantic
+logfire
