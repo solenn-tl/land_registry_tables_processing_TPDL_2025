@@ -1,10 +1,10 @@
 This repository is under LGPL v3 (equivalent : CecillB 2.1) licence (https://choosealicense.com/licenses/lgpl-3.0/). 
 
 ------------------------------------------------------------------
-
+```
                    GNU LESSER GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
-
+                       
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
  Everyone is permitted to copy and distribute verbatim copies
  of this license document, but changing it is not allowed.
@@ -167,3 +167,4 @@ whether future versions of the GNU Lesser General Public License shall
 apply, that proxy's public statement of acceptance of any version is
 permanent authorization for you to choose that version for the
 Library.
+```

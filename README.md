@@ -26,14 +26,14 @@ Historical tables, such as administrative registers, represent vast and valuable
 │
 ├── LICENCE.md
 ├── README.md
-└── appendix.pdf           <- Paper with appendix (includes extended evaluation)
+└── paper_with_appendices.pdf           <- Paper with appendix (includes extended evaluation)
 ```
 
 ## Datasets
 These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives.
 * **Page classification** : [10.5281/zenodo.15386606](https://zenodo.org/10.5281/zenodo.15386606)
 * **Information extraction** : [10.5281/zenodo.15411507](https://zenodo.org/10.5281/zenodo.15411507)
-* **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/10.5281/zenodo.15423885) (! this is a test dataset produced using taxpayers cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation( **new version in developpement**)
+* **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/10.5281/zenodo.15423885) (!Warning! This is a test dataset produced using taxpayers cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation. A **new version is under developpement**)
 * **Gold-standard KG** : TO ADD
 
 ## Models
@@ -46,6 +46,11 @@ Here are the path to the fine-tuned models for page classification, information 
 
 ## See also
 * [PeGaZus ontology and algorithm](https://github.com/umrlastig/pegazus-ontology)
+
+## To cite this paper
+```
+
+```
 
 ## Acknowledgement
 
