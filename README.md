@@ -31,9 +31,10 @@ Historical tables, such as administrative registers, represent vast and valuable
 
 ## Datasets
 These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives. 
-* **Page classification** : [10.5281/zenodo.15386606](https://zenodo.org/10.5281/zenodo.15386606)
-* **Information extraction** : [10.5281/zenodo.15411507](https://zenodo.org/10.5281/zenodo.15411507)
-* **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/10.5281/zenodo.15423885) (!Warning! This is a test dataset produced using taxpayers cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation)
+* **Page classification** : [10.5281/zenodo.15386606](https://zenodo.org/records/15386606)
+* **Information extraction** : [10.5281/zenodo.15411507](https://zenodo.org/records/15411507)
+* **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/records/15423885)
+    * ! Be carefull ! This dataset has been produced using LLM pre-annotation.Taxpayers mentions are "Taxpayer" cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation.
 * **Gold-standard KG** : TO ADD
 
 ## Models
