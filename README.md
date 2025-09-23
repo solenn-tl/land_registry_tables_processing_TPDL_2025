@@ -39,9 +39,9 @@ These datasets have been produced using pages from the initial registers (*état
 
 ## Models
 Here are the path to the fine-tuned models for page classification, information extraction and named-entity recognition.
-* **YOLOv11-19lr-ir-94** : TO ADD
-* **DAN-19lr-ir-94** : TO ADD
-* **NER-19lr-ir-94-test** : TO ADD
+* **YOLOv11-19lr-ir-94** : [10.5281/zenodo.17186163](https://zenodo.org/records/17186164)
+* **DAN-19lr-ir-94** : [10.5281/zenodo.17185989](https://zenodo.org/records/17185990)
+* **NER-19lr-ir-94** : []()
 
 *NB : 19lr (19th century land registry), ir (initial registers), 94 (Val-de-Marne departement archives)*
 
@@ -52,14 +52,15 @@ Here are the path to the fine-tuned models for page classification, information 
 This paper was presented during the TDPL 2025 conference in Tampere, Finland.
 ```
 @InProceedings{tual_tpdl25_landregistrytables,
-author="Tual, Solenn and Abadie, Nathalie and Chazalon, Joseph and Dum{\'e}nieu, Bertrand and Perret, Julien",
-title="An End-to-End Pipeline for Knowledge Graph Population from 19th-Century Land Registry Digitised Tables",
-booktitle="Linking Theory and Practice of Digital Libraries",
-year="2026",
-publisher="Springer Nature Switzerland",
-address="Cham",
-pages="415--432",
-doi=10.1007/978-3-032-05409-8_24
+    author="Tual, Solenn and Abadie, Nathalie and Chazalon, Joseph and Dum{\'e}nieu, Bertrand and Perret, Julien",
+    title="An End-to-End Pipeline for Knowledge Graph Population from 19th-Century Land Registry Digitised Tables",
+    booktitle="Linking Theory and Practice of Digital Libraries",
+    year="2026",
+    publisher="Springer Nature Switzerland",
+    address="Cham",
+    pages="415--432",
+    doi={10.1007/978-3-032-05409-8_24},
+    url ={https://hal.science/hal-05118320}
 }
 ```
 
