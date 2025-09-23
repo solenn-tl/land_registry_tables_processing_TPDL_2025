@@ -8,7 +8,7 @@ Historical tables, such as administrative registers, represent vast and valuable
     * Each *scripts/XX* subfolder requires a dedicated virtual environnement
 * Computing resources
     * 2 GPUs with at least 45Go RAM required to train DAN
-    * 1 GPU for YOLOv11 and Camembert-NER model fine-tuning
+    * 1 GPU for YOLOv11 and Camembert-NER models fine-tuning
 * A RDF triplestore :
     * We use Graph DB for these experiments 
 
@@ -30,10 +30,10 @@ Historical tables, such as administrative registers, represent vast and valuable
 ```
 
 ## Datasets
-These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives.
+These datasets have been produced using pages from the initial registers (*états de sections* in french) of the 19th-century french land registry using images from the Val-de-Marne archives. 
 * **Page classification** : [10.5281/zenodo.15386606](https://zenodo.org/10.5281/zenodo.15386606)
 * **Information extraction** : [10.5281/zenodo.15411507](https://zenodo.org/10.5281/zenodo.15411507)
-* **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/10.5281/zenodo.15423885) (!Warning! This is a test dataset produced using taxpayers cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation. A **new version is under developpement**)
+* **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/10.5281/zenodo.15423885) (!Warning! This is a test dataset produced using taxpayers cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation)
 * **Gold-standard KG** : TO ADD
 
 ## Models
@@ -48,8 +48,18 @@ Here are the path to the fine-tuned models for page classification, information 
 * [PeGaZus ontology and algorithm](https://github.com/umrlastig/pegazus-ontology)
 
 ## To cite this paper
+This paper was presented during the TDPL 2025 conference in Tampere, Finland.
 ```
-
+@InProceedings{tual_tpdl25_landregistrytables,
+author="Tual, Solenn and Abadie, Nathalie and Chazalon, Joseph and Dum{\'e}nieu, Bertrand and Perret, Julien",
+title="An End-to-End Pipeline for Knowledge Graph Population from 19th-Century Land Registry Digitised Tables",
+booktitle="Linking Theory and Practice of Digital Libraries",
+year="2026",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="415--432",
+doi=10.1007/978-3-032-05409-8_24
+}
 ```
 
 ## Acknowledgement
