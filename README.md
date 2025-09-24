@@ -35,7 +35,7 @@ These datasets have been produced using pages from the initial registers (*état
 * **Information extraction** : [10.5281/zenodo.15411507](https://zenodo.org/records/15411507)
 * **Named Entity Recognition (Taxpayers)** : [10.5281/zenodo.15423885](https://zenodo.org/records/15423885)
     * ! Be carefull ! This dataset has been produced using LLM pre-annotation.Taxpayers mentions are "Taxpayer" cells values of the IE dataset, some taxpayers are in several subsets which might biais the evaluation.
-* **Gold-standard KG** : TO ADD
+* **Results and Gold-standard KG** : [10.5281/zenodo.17192094](https://zenodo.org/records/17192094)
 
 ## Models
 Here are the path to the fine-tuned models for page classification, information extraction and named-entity recognition.
