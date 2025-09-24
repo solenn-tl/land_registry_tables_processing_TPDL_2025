@@ -16,6 +16,7 @@ Historical tables, such as administrative registers, represent vast and valuable
 ```
 ├── data
 |   ├── metadata           <- Metadata tables
+|   ├── ONTO               <- Taxonomy of nature extracted from the PeGazUs Ontology (used for EL task)
 ├── scripts
 |   ├── CLASSIF            <- Train YOLOv11 classifier for page classification
 │   ├── DAN                <- Train DAN for information extraction from historical tables

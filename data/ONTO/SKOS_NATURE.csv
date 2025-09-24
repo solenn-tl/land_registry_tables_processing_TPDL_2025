@@ -1,0 +1,163 @@
+skos:Concept,skos:inScheme,skos:broader,skos:closeMatch,skos:exactMatch,skos:prefLabel@fr,skos:altLabel@fr,skos:hiddenLabel@fr,skos:prefLabel@en,skos:altLabel@en,rdfs:comment@fr,cad:TFNBGroup
+Abricotier,NatureList,Plantation,,,Plantation d'abricotiers,Abricotiers,,Apricot trees,Apricot,,3
+Abreuvoir,NatureList,NatureNonBatie,,,Abreuvoir,,,Water trough,,,8
+Acacia,NatureList,Plantation,,,Plantation d'acacias,Acacias,,Acacia,,,5
+Ajonc,NatureList,NatureNonBatie,,,Ajonc,Ajoncs,,Gorse,"Furze,Whin",,6
+Allee,NatureList,NatureNonBatie,,,Allée,,,Walk,Path,,11
+Amandier,NatureList,Plantation,,,Plantation d'amandiers,Amandiers,,Almond tree,Almond,,3
+Appenti,NatureList,NatureBatie,Batiment,,Appenti,,,Lean-to,,,
+Ardoisiere,NatureList,NatureNonBatie,Carriere,,Ardoisière,"Carrière d'ardoise,Ardoise",,Slate quarry,,,7
+Argilliere,NatureList,NatureNonBatie,Carriere,,Argillière,"Carrière d'argile,Argile",,Clay quarry,,,7
+Asperges,NatureList,Plantation,,,Plantation d'asperges,Asperge,,Asparagus,,,1
+Atelier,NatureList,NatureBatie,,,Atelier,,,Workshop,,,
+Aulnaie,NatureList,NatureNonBatie,,,Aulnaie,,,Alder grove,,,5
+Bassin,NatureList,NatureNonBatie,,,Bassin,,,Basin,,,8
+Barraque,NatureList,NatureBatie,Batiment,,Baraque,,,Hut,Shed,,
+Batiment,NatureList,NatureBatie,,,Bâtiment,,"Bat,Bt",Building,,,
+BatimentRural,NatureList,Batiment,,,Bâtiment rural,Bâtiments ruraux,,Rural building,,,5
+Batterie,NatureList,Batiment,,,Batterie,Batterie de côte,,Battery,,,
+Bief,NatureList,NatureNonBatie,,,Bief,,,Millstream,,,11
+Bois,NatureList,NatureNonBatie,,,Bois,,,Wood,,,5
+BoisAgrement,NatureList,"Bois,ObjetDAgrement",Bois,,Bois d'agrément,,,Ornamental wood,,,13
+Broussaille,NatureList,NatureNonBatie,,,Brousaille,,,Undergrowth,Bushes,,6
+Bruyere,NatureList,NatureNonBatie,,,Bruyère,Bruyères,,Heather,,,6
+Buissiere,NatureList,NatureNonBatie,,,Buissières,,,Boxwood,,,6
+Canal,NatureList,NatureNonBatie,,,Canal,,,Canal,,,
+CanalAgrement,NatureList,"Canal,ObjetDAgrement",Canal,,Canal d'agrément,,,Ornamental canal,,,
+Carriere,NatureList,NatureNonBatie,,,Carrière,,,Quarry,Pit,,7
+Cassis,NatureList,Plantation,,,Plantation de cassis,,,Blackcurrant,,,9
+Cedratiers,NatureList,Plantation,,,Plantation de cédratier,Cédratier,,Cedrate tree,Citron tree,,3
+Cerisaies,NatureList,Plantation,,,Cerisaies,"Cerise,Plantation de cerises",,Cherry orchard,,,3
+Chantier,NatureList,NatureNonBatie,,,Chantier,Dépôt de marchandises,,Construction site,,,13
+Charmille,NatureList,NatureNonBatie,,,Charmille,Allée couverte,,Tree tunnel,,,11
+Chataigneraie,NatureList,NatureNonBatie,,,Châtaigneraies,,,Chestnut grove,,"Cadastre actuel : Dans les régions où les châtaigneraies sont exploitées principalement en vue de la récolte des châtaignes, ces pro­priétés doivent être rangées dans le 3e groupe; là où elles sont surtout destinées à la pro­duction du bois, il y a lieu de les classer dans le 5e groupe.","3,5"
+Chemin,NatureList,NatureNonBatie,,,Chemin,,,Path,Walk,,
+ChemindeFer,NatureList,NatureNonBatie,,,Chemin de fer,,,Railway,,"Cadastre actuel : Abstraction faite, bien entendu, des dépendances sus­ceptibles d'être considérées comme sols de propriétés bâties, lesquelles doivent être rangées dans le 13e groupe",12
+Cheneviere,NatureList,NatureNonBatie,,,Chenevière,"Champ de chanvre,Chanvre",,Hemp field,,,1
+Cimetiere,NatureList,NatureBatie,,,Cimetiere,,,Cemetery,,,
+Citronnier,NatureList,Plantation,,,Plantation de citronnier,Citron,,Lemon tree,,,3
+Clos,NatureList,NatureNonBatie,,,Clos,,,Fenced lot,,,
+Cour,NatureList,NatureBatie,,,Cour,,,Courtyard,,,13
+CourCommune,NatureList,Cour,,,Cour commune,,,Shared courtyard,,,
+Courtil,NatureList,NatureNonBatie,Jardin,,Courtil,,,Fenced garden,,,
+CoursDEau,NatureList,NatureNonBatie,,,Cours d'eau,,,Waterway,"River,stream",,8
+Crayere,NatureList,NatureNonBatie,,,Crayère,"Carrière de craie,Craie",,Chalk quarry,,,7
+Cressonniere,NatureList,NatureNonBatie,,,Cressonnière,Cresson,,Watercress,,,9
+Cuisine,NatureList,NatureBatie,,,Cuisine,,,Kitchen,,,
+Dependance,NatureList,NatureBatie,Batiment,,Dépendance,,,Outbuilding,,,
+Digue,NatureList,NatureNonBatie,,,Digue,,,Dyke,Seawall,,8
+Douve,NatureList,NatureNonBatie,,,Douve,,,Moat,,,8
+Dune,NatureList,NatureNonBatie,,,Dune,,,Dune,,,6
+Eau,NatureList,NatureNonBatie,,,Eau,,,Water,,,8
+Ecluse,NatureList,NatureNonBatie,,,Ecluse,,,Lock,,,12
+Ecurie,NatureList,NatureBatie,,,Ecurie,,,Stable,,,
+Eglise,NatureList,NatureBatie,,,Eglise,,,Church,,,
+EtablissementDeBains,NatureList,NatureBatie,,,Etablissement de bains,,,Public baths,,,
+Etang,NatureList,NatureNonBatie,,,Etang,,,Pond,,,8
+EtangEmpoissonne,NatureList,Etang,,,Etang empoissonné,,,Pond with fishes,,,
+Etendoir,NatureList,NatureBatie,Sechoir,,Etendoir,,,Drying rack,,,13
+Fabrique,NatureList,NatureBatie,,,Fabrique,Manufacture,,Factory,,,
+Falaise,NatureList,NatureNonBatie,,,Falaise,,,Cliff,,,6
+Figuier,NatureList,Plantation,,,Plantation de figuiers,"Figuier, Figues",,Fig tree,,,3
+Fleur,NatureList,Plantation,,,Fleurs,"Culture de fleurs, Plantation de fleurs",,Flowers,,,9
+Fontaine,NatureList,NatureNonBatie,,,Fontaine,,,Fountain,,,8
+Fosse,NatureList,NatureNonBatie,,,Fossé,,,Ditch,,,8
+Fougeraie,NatureList,NatureNonBatie,,,Fougeraie,,,Ferny area,,,6
+Fournil,NatureList,NatureBatie,Four,,Fournil,,,Bakery,,,
+Four,NatureList,NatureBatie,Fournil,,Four,,,"""Oven""",,,
+Fraisier,NatureList,NatureNonBatie,,,Fraisiers,Plantation de fraisiers,,Strawberry plant,,,9
+Framboisier,NatureList,NatureNonBatie,,,Framboisiers,Plantation de framboisiers,,Raspberry bush,,,9
+Friche,NatureList,NatureNonBatie,,,Friche,,,Wasteland,,,6
+Genet,NatureList,NatureNonBatie,,,Genêt,,,Broom,,,6
+Graviere,NatureList,NatureNonBatie,,,Gravière,Carrière de gravier,,Gravel quarry,,,7
+Groseillier,NatureList,Plantation,,,Groseillier,"Plantation de groseillier, Groseille",,Currant bush,,,9
+Gue,NatureList,NatureNonBatie,,,Gué,,,Ford,,,8
+Hangar,NatureList,NatureBatie,Batiment,,Hangar,,Hang,Shed,Hangar,,
+Herbage,NatureList,NatureNonBatie,,,Herbage,,,Pasture,,,2
+Houblonniere,NatureList,NatureNonBatie,,,Houblonnière,Houblon,,Hop field,,,1
+Jardin,NatureList,NatureNonBatie,,,Jardin,,J,Garden,,,
+JardinDAgrement,NatureList,"Jardin,ObjetDAgrement",,,Jardin d'agrément,,J d'ag,Ornamental garden,,,11
+JardinMaraicher,NatureList,Jardin,Plantation,Potager,Jardin Maraîcher,,,Vegetable garden,,,9
+JardinMarais,NatureList,Jardin,,,Jardin Marais,,,,,,9
+Jonc,NatureList,NatureNonBatie,,,Jonc,,,Rush,,,6
+Lac,NatureList,NatureNonBatie,,,Lac,,,Lake,,,8
+Lagune,NatureList,NatureNonBatie,,,Lagune,,,Lagoon,,,8
+Lande,NatureList,NatureNonBatie,,,Lande,,,Heath,,,6
+Lavande,NatureList,NatureNonBatie,,,Lavande,"Culture de lavande,Plantation de lavande",,Lavander,,Cadastre actuel : Les cultures de lavande sont rangées dans le 1er ou dans le 6e groupe suivant leur mode d'exploitation.,"1,6"
+Lavoir,NatureList,NatureBatie,,,Lavoir,,,Washhouse,,,
+MachineAVapeur,NatureList,NatureBatie,,,Machine à vapeur,,,Steam engine,,,
+Magasin,NatureList,NatureBatie,Batiment,,Magasin,,,Shop,,,
+Maison,NatureList,NatureBatie,,,Maison,,"Mais,Mon",House,,,
+Manufacture,NatureList,NatureBatie,Fabrique,,Manufacture,,,Factory,,,
+Marais,NatureList,NatureNonBatie,Palus,,Marais,,,Swamp,,,6
+MaraisSalant,NatureList,NatureNonBatie,,,Marais salant,,,Salt marsh,,,8
+Marecage,NatureList,NatureNonBatie,,,Marécage,,,Marsh,,,6
+Mare,NatureList,NatureNonBatie,,,Mare,,,Pond,,,8
+Marniere,NatureList,NatureNonBatie,,,Manière,Carrière de marne,,Marl quarry,,,7
+Meloniere,NatureList,NatureNonBatie,,,Melonière,,,Melon plantation,,,
+Mine,NatureList,NatureNonBatie,,,Mine,,,Mine,,,7
+Miniere,NatureList,NatureNonBatie,,,Minière,,,Small mine,Open mine,,7
+Moulin,NatureList,NatureBatie,,,Moulin,,,Mill,,,
+MoulinAVent,NatureList,Moulin,,,Moulin à vent,,,Wind mill,,,
+MoulinAEau,NatureList,Moulin,,,Moulin à eau,,,Water mill,,,
+Murier,NatureList,Plantation,,,Plantation de mûriers,Mûrier,,Blackberry bush,,,3
+Noisetier,NatureList,Plantation,,,Plantation de noisetiers,Noisetier,,Hazel tree,,,3
+Noyer,NatureList,Plantation,,,Plantation de noyers,Noyer,,Walnet tree,,"Cadastre actuel : Selon qu'il s'agit de noyers à fruits ou à bois. Sont consi­dérées comme noyeraies à bois, à ranger dans le 5e groupe, les plantations qui répondent simul­tanément aux conditions sui­vantes : présenter une densité de peuplement au moins égale à 80 pieds à l'hectare; occuper entièrement une superficie au moins égale à 15 ares; être constituées exclusivement par des sujets “francs de pied” ou hybrides -c'est-à-dire non greffés- et appartenant à des variétés particulièrement aptes à la production du bois : “regia” ou “nigra” ou “nigra et regia”.","3,5"
+NatureBatie,NatureList,,,,Parcelle imposée au titre des propriétés bâties,Propriété bâtie,,Build plot nature,,,
+NatureNonBatie,NatureList,,,,Parcelle imposée au titre des propriétés no bâties,Propriété non bâtie,,Unbuild plot nature,,,
+Neant,NatureList,,,,Néant,Nul,,Nothing,,,
+ObjetDAgrement,NatureList,,,,Objet d'agrément,,,Ornemental thing,,,
+Olivier,NatureList,Plantation,,,Plantation d'oliviers,Olivier,,Olive tree,,,3
+Oranger,NatureList,Plantation,,,Plantation d'orangers,"Oranger,Orange",,Orange tree,,,3
+Ormaie,NatureList,NatureNonBatie,,,Ormaie,Orme,,Elm,,,5
+Oseraie,NatureList,NatureNonBatie,,,Oseraie,,,Wicker grove,,,5
+Palus,NatureList,NatureNonBatie,Marais,,Palus,,,Swamp,,,6
+Parterre,NatureList,NatureNonBatie,,,Parterre,,,Flowerbed,,,11
+Passage,NatureList,NatureNonBatie,,,Passage,,,Way,,Cadastre actuel : Passages pratiqués entre les murs de clôtures ou les mai­sons.,"10,13"
+Patis,NatureList,NatureNonBatie,"Pature,Paturage",,Pâtis,,,Grass,,,6
+Paturage,NatureList,NatureNonBatie,"Pature,Patis",,Pâturage,,,Pastureland,,,2
+Pature,NatureList,NatureNonBatie,"Patis,Paturage",,Pâture,,,Pasture,,,"2,6"
+Pecher,NatureList,Plantation,,,Plantation de pêchers,Pêcher,,Peach tree,,,3
+Pepiniere,NatureList,NatureNonBatie,,,Pépinière,,,Plant nursery,,Cadastre actuel : Les pépinières sur terrains non aménagés sont rangées dans le 1er groupe.,"1,9"
+Peuplier,NatureList,NatureNonBatie,,,Peuplier,,,Poplar,,,5
+PieceDEau,NatureList,NatureNonBatie,,,Pièce d'eau,,,Piece of water,,,11
+PieceDEauAgrement,NatureList,"PieceDEau,ObjetDAgrement",,,Pièce d'eau d'agrément,,,Onermental piece of water,,,
+Pin,NatureList,NatureNonBatie,,,Pin,,,Pine,,,5
+Plage,NatureList,NatureNonBatie,,,Plage,,,Beach,,,6
+Plantation,NatureList,NatureNonBatie,TerrainPlante,,Plantation,,,Plantation,,,
+Platriere,NatureList,NatureNonBatie,,,Plâtrière,"Carrière de gypse,Gypse",,Gypsum quarry,,,7
+Poirier,NatureList,Plantation,Verger,,Plantation de poiriers,"Poirier,Poire",,Pear tree,,,3
+Pommeraie,NatureList,Plantation,Verger,,Pommeraie,Pommier,,Apple tree,,,3
+Potager,NatureList,Jardin,,,Potager,Jardin potager,,Vegetable garden,,,9
+Poudriere,NatureList,Batiment,,,Poudrière,,,Gunpowder depot,,,
+Pre,NatureList,NatureNonBatie,,,Pre,,,Meadow,,,2
+PrePlante,NatureList,NatureNonBatie,,,Pré planté,,,Plated meadow,,Cadastre actuel : Ces prés doivent faire l'objet d'une classification parti­culière; mais le terrain est rangé dans le 3e groupe lorsque les arbres fournissent le produit principal,"2,3"
+Reservoir,NatureList,NatureNonBatie,,,Réservoir,,,Water tank,,,8
+Rigole,NatureList,NatureNonBatie,,,Rigole,,,Channel,Furrow,,8
+Riziere,NatureList,NatureNonBatie,,,Rizière,,,Rice paddy,,,1
+Rocher,NatureList,NatureNonBatie,,,Rocher,,,Rock,Boulder,,6
+Rosier,NatureList,NatureNonBatie,,,Rosier,Plantation de rosiers,,Rose,,,9
+Routoir,NatureList,NatureNonBatie,,,Routoir,Rouissoir,,,,,8
+Ruine,NatureList,Batiment,,,Ruine,,Ruines,Ruin,,,
+Sabliere,NatureList,NatureNonBatie,,,Sablière,Carrière de sable,,Sand quary,,,7
+Salin,NatureList,NatureNonBatie,,,Salin,Saline,,Salina,,,8
+Sapin,NatureList,NatureNonBatie,,,Sapin,,,Fir tree,Pine tree,,5
+Saulaie,NatureList,NatureNonBatie,,,Saulaie,Saussaie,,Willow grove,,,5
+Sechoir,NatureList,NatureBatie,Etendoir,,Séchoir,,,Airer,,,13
+Serre,NatureList,NatureBatie,,,Serre,Forcerie,,Greenhouse,,"Cadastre actuel : Selon les cas, les serres peuvent être classées ainsi qu'il suit :
+- serres non affectées aux besoins d'une exploitation agricole : groupe 13 ;
+- serres affectées aux besoins d'une exploitation agricole : groupe 9.","9,13"
+Sol,NatureList,NatureNonBatie,,,Sol,Superficie des bâtiments,"Terre de maison,Sol de maison,Sol de la maison,Sol de moulin,Sol de propriété bâtie",Ground,House ground,,13
+Terrain,NatureList,NatureNonBatie,,,Terrain,,,Piece of land,,,
+TerrainABatir,NatureList,NatureNonBatie,,,Terrain à bâtir,,,Piece of land for building,,,10
+TerrainDAgregemnt,NatureList,"NatureNonBatie,ObjetDAgrement",,,Terrain d'agrément,,,Ornemental piece of land,,,11
+Terre,NatureList,NatureNonBatie,,,Terre,,T,Bare ground,,"Cadastre actuel : On comprend dans le groupe des terres les terres plantées, quand le produit de la terre l'emporte sensiblement sur celui des plantations. On y fait figurer non seulement les terrains affectés à la culture des céréales, mais aussi ceux qui sont consacrés à la production des légumes (grande culture potagère rentrant dans l'agriculture proprement dite) et des plantes industrielles (tabac, colza, chanvre, lin, etc.). On y range également les prairies artificielles.",1
+TerrePlantee,NatureList,NatureNonBatie,,,Terre plantée,Terrain planté,"Tp,T. p., T pt",Planted land,,"Cadastre actuel : Lorsque la plantation fournit le produit principal, le terrain est rangé dans le 3e groupe.","1,3"
+TerreAVigne,NatureList,NatureNonBatie,,,Terre à vigne,,,Vineyard land,,,
+TerreVaine,NatureList,NatureNonBatie,,,Terre vaine,Terre vague,,,,,6
+TerreLabourable,NatureList,NatureNonBatie,,,Terre labourable,,,Plowed land,,,
+Tourbiere,NatureList,NatureNonBatie,,,Tourbière,,,Peatland,,,7
+Truffiere,NatureList,NatureNonBatie,,,Truffière,,,Truffle patch,,Cadastre actuel : Les terrains spécialement plantés et entretenus en vue de la production des truffes sont rangés dans le 3e groupe.,"3,5"
+Verger,NatureList,NatureNonBatie,,,Verger,,,Orchard,,,3
+Vigne,NatureList,NatureNonBatie,,,Vigne,,"V,Vig",Vineyard,,,4
+Vivier,NatureList,NatureNonBatie,,,Viver,,,Fishpond,,,8
