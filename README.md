@@ -41,7 +41,7 @@ These datasets have been produced using pages from the initial registers (*état
 Here are the path to the fine-tuned models for page classification, information extraction and named-entity recognition.
 * **YOLOv11-19lr-ir-94** : [10.5281/zenodo.17186163](https://zenodo.org/records/17186164)
 * **DAN-19lr-ir-94** : [10.5281/zenodo.17185989](https://zenodo.org/records/17185990)
-* **NER-19lr-ir-94** : []()
+* **NER-19lr-ir-94** : [10.5281/zenodo.17186600](https://zenodo.org/records/17186600)
 
 *NB : 19lr (19th century land registry), ir (initial registers), 94 (Val-de-Marne departement archives)*
 
