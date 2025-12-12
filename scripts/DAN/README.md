@@ -1,5 +1,7 @@
 # Information extraction in historical tables with DAN
 
+Warning (12/12/2025) : Some jupyter notebook cells (raw text) might not appear on Git-Hub. Please clone the repository on your local computer to be able to see all informations.
+
 ## Documentation
 * [DAN (Teklia)](https://gitlab.teklia.com/atr/dan)
 * [DAN Documentation ](https://atr.pages.teklia.com/dan/)
